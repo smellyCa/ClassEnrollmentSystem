@@ -1,0 +1,121 @@
+@CHARSET "UTF-8";
+html{
+	min-height: 100%;
+    height:100%;
+}
+body{
+	background:#eeeee9;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	margin: 0;
+    padding: 0;
+	min-height: 100%;
+    height:100%;
+}
+.head{
+	height:50px;
+	background-image:url("../images/head.png");
+	font-weight:bold;
+	text-align:center;
+	font-size:35px;
+	color:#bbbaba;
+}
+.titlelink{
+	font-size:0.8em;
+	float:right;
+}
+.titlelink a{
+	text-decoration:none;
+	color:#fdde89;
+}
+span.title{
+	padding:120px;
+}
+#course{
+	position:relative;
+	top:1.5em;
+	float:left;
+	border:2px solid #eeeee9;
+	height:520px;
+	overflow-y:scroll;
+}
+#course tr td{
+	height:25px;
+	width:230px;
+}
+#schedule{
+	position:absolute;
+	left:305px;
+	top:200px;
+	width:995px;
+	height:450px;
+}
+#schedule table{
+	position:absolute;
+	left:0em;
+	top:0em;
+}
+#schedule tr td.even{
+	background:#DDF7CE;
+}
+#schedule tr td.odd{
+	background:#ffffff;
+}
+tr.tHead td{
+	background-color:#bbbaba;
+	height:30px;
+	font-size:1.3em;
+	text-align:center;
+	color:#ffffff;
+	font-weight:bold;
+}
+#schedule tr.subject td{
+	height:60px;
+	width:125px;
+	color:#003333;
+}
+#schedule tr td.num{
+	width:55px;
+	text-align:center;
+	background:#bbbaba;
+}
+#choose{
+	position:absolute;
+	left:305px;
+	top:80px;
+	width:995px;
+}
+#tchoose{
+	border-collapse:collapse;
+}
+#tchoose tr td{
+	border:2px solid #DCDBDB;
+}#c0c0c0
+#choose tr.tHead td{
+	width:110px;
+	border:2px solid #666666;
+}
+#choose tr.subject td{
+	height:30px;
+	width:160px;
+	background:#ffffff;
+}
+#choose tr td.num{
+	width:55px;
+	text-align:center;
+}
+.input_num{
+	border:0;
+}
+caption{
+	font-size:30px;
+	font-weight:bold;
+}
+.bottom{
+	position:relative;
+	font-size:0.85em;
+	width:250px;
+	height:20px;
+	top:3.5em;
+	left:46em;
+	color:#696969;
+}

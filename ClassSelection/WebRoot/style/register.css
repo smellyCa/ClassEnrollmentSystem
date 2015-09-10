@@ -1,0 +1,61 @@
+#input{
+	position:absolute;
+	left:440px;
+	top:130px;
+	height:300px;
+	width:450px;
+	background-image:url("../images/register.png");
+}
+table#tinput tr td{
+	text-align:center;
+}
+table#tinput{
+	position: absolute;
+	top:70px;
+	left:85px;
+}
+#title{
+	font-size:1.8em;
+	color:#bbbaba;
+}
+#popup{
+	position: absolute;
+	top:160px;
+	left:410px;
+	height:300px;
+	width:450px;
+	padding:0px;
+	margin:0px;
+	visibility:hidden;
+	overflow: hidden;
+	background-image:url("../images/register_window.png");
+}
+#window{
+	position: absolute;
+	top:35px;
+	left:55px;
+}
+#poptitle{
+	font-size:1.5em;
+	color:#bbbaba;
+}
+#tregister{
+	position: absolute;
+	top:74px;
+	left:60px;
+}
+table#tregister tr td{
+	text-align:right;
+}
+.bottom{
+	position:absolute;
+	font-size:0.85em;
+	top:480px;
+	left:558px;
+	color:#696969;
+}
+#tip{
+	position: absolute;
+	top:75px;
+	left:90px;
+}
